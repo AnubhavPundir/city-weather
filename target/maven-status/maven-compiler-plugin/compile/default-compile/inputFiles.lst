@@ -1,0 +1,15 @@
+c:\Users\Administrator\Downloads\weather-api\src\main\java\com\weatherapiproject\weatherapi\domain\CityCoordinates.java
+c:\Users\Administrator\Downloads\weather-api\src\main\java\com\weatherapiproject\weatherapi\entity\WeatherEntity.java
+c:\Users\Administrator\Downloads\weather-api\src\main\java\com\weatherapiproject\weatherapi\transformer\OpenWeatherTransformer.java
+c:\Users\Administrator\Downloads\weather-api\src\main\java\com\weatherapiproject\weatherapi\domain\WeatherRequestDetails.java
+c:\Users\Administrator\Downloads\weather-api\src\main\java\com\weatherapiproject\weatherapi\WeatherApiApplication.java
+c:\Users\Administrator\Downloads\weather-api\src\main\java\com\weatherapiproject\weatherapi\provider\GeocodingProvider.java
+c:\Users\Administrator\Downloads\weather-api\src\main\java\com\weatherapiproject\weatherapi\domain\CityWeather.java
+c:\Users\Administrator\Downloads\weather-api\src\main\java\com\weatherapiproject\weatherapi\entity\OpenWeatherResponseEntity.java
+c:\Users\Administrator\Downloads\weather-api\src\main\java\com\weatherapiproject\weatherapi\entity\WeatherResponse.java
+c:\Users\Administrator\Downloads\weather-api\src\main\java\com\weatherapiproject\weatherapi\entity\GeocodingCoordinatesEntity.java
+c:\Users\Administrator\Downloads\weather-api\src\main\java\com\weatherapiproject\weatherapi\service\WeatherService.java
+c:\Users\Administrator\Downloads\weather-api\src\main\java\com\weatherapiproject\weatherapi\resource\WeatherResource.java
+c:\Users\Administrator\Downloads\weather-api\src\main\java\com\weatherapiproject\weatherapi\transformer\GeocodingCoordinatesTransformer.java
+c:\Users\Administrator\Downloads\weather-api\src\main\java\com\weatherapiproject\weatherapi\entity\TempEntity.java
+c:\Users\Administrator\Downloads\weather-api\src\main\java\com\weatherapiproject\weatherapi\provider\WeatherProvider.java
