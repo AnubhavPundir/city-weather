@@ -1,6 +1,7 @@
 package com.weatherapiproject.weatherapi.resource;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping; // to map req to controller methods
@@ -31,6 +32,7 @@ public class WeatherResource
         this.weatherService = weatherService;
     }
 
+    @CrossOrigin(origins = {"https://anubhavpundir.github.io","https://anubhavpundir.github.io/city_weather_frontend/"})
     @GetMapping("/weather/{city}")
     public  @ResponseBody WeatherResponse weather(@PathVariable("city") String city)throws Exception
     {
