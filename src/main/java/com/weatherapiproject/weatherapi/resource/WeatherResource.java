@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController; //used for RESTfu
 import com.weatherapiproject.weatherapi.domain.WeatherRequestDetails;// class we created 
 import com.weatherapiproject.weatherapi.entity.WeatherResponse;// importing our created weatherResponse class in entity
 import com.weatherapiproject.weatherapi.service.WeatherService;
+import com.weatherapiproject.weatherapi.service.CityService;
 
 
 /* 
@@ -36,9 +37,18 @@ public class WeatherResource
     @GetMapping("/weather/{city}")
     public  @ResponseBody WeatherResponse weather(@PathVariable("city") String city)throws Exception
     {
+        CityService obj = new CityService();
+        boolean validCity= obj.isCityValid(city);
+
+        if(validCity){
         final WeatherRequestDetails weatherRequestDetails =  WeatherRequestDetails.builder()
         .city(city).build(); //providing value to variable defined in WeatherRequestDetails class
         
         return weatherService.getWeather(weatherRequestDetails);
+        }
+        else
+        {
+            return weatherService.getWeather(null);
+        }
     }
 }
